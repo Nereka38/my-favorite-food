@@ -37,9 +37,6 @@ img {
   column-gap: 10px;
   }
 
-ul {
-  list-style: none;
-}
 
 .ingredients {
     display: flex;
@@ -53,6 +50,7 @@ ul {
     display: flex;
     justify-content: flex-end;
     flex-flow: column;
+    margin-left: 100px;
     padding: 30px;
     border-style:groove;
     border-radius: 20px;
@@ -72,4 +70,5 @@ ul {
     text-align: center;
     border-style: dashed;
     margin-top: 20px;
+    font-size: 20px;
   }
