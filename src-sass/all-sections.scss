@@ -1,0 +1,49 @@
+.all-sections {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: space-between;
+
+    }
+  
+  
+  .ingredients {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      align-items: space-evenly;
+      width: 60em;
+      border-style:groove;
+      border-color: greenyellow;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    h2{
+      color: green;
+      font-size: 25px;
+      -webkit-text-stroke: 2px black;
+    }
+  
+    .time {
+      display: flex;
+      justify-content: flex-end;
+      flex-flow: column;
+      margin-left: 25%;
+      margin-bottom: 5%;
+      padding: 25px;
+      border-style:groove;
+      border-radius: 20px;
+      text-align: center;
+      border-color: pink;
+    }
+    
+    .preparation {
+      display: flex;
+      justify-content: flex-start;
+      flex-flow: column;
+      border-style:groove;
+      border-color: purple;
+      padding: 10px;
+    }
+  

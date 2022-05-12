@@ -1,3 +1,7 @@
+@import 'all-sections.scss';
+@import 'list-style.scss';
+
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -27,96 +31,6 @@ img {
   margin-bottom: 20px;
   border-radius: 30px;
 }
-
-.all-sections {
-  display:flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: space-between;
-  gap: 10px;
-  gap: 10px 10px;
-  row-gap: 10px;
-  column-gap: 10px;
-  }
-
-
-.ingredients {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    width: 391%;
-    border-style:groove;
-    border-color: greenyellow;
-    padding: 10px;
-  }
-  
-  h2{
-    color: green;
-    font-size: 30px;
-    -webkit-text-stroke: 2px black;
-  }
-
-  .time {
-    display: flex;
-    justify-content: flex-end;
-    flex-flow: column;
-    margin-left: 20%;
-    padding: 20px;
-    border-style:groove;
-    border-radius: 20px;
-    text-align: center;
-    border-color: pink;
-  }
-  
-  .preparation {
-    display: flex;
-    flex-flow: column;
-    border-style:groove;
-    border-color: purple;
-    padding: 10px;
-  }
-
-  ul {
-   list-style: none;
-   padding: 0;
-   margin: 0;
-  }
-
-  li {
-    padding-left: 16px;
-  }
-  
-  .part1::before{
-    content: "1";
-    padding-right: 8px;
-    background-color: greenyellow;
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .part2::before{
-    content: "2";
-    padding-right: 8px;
-    background-color: greenyellow;
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .part3::before{
-    content: "3";
-    padding-right: 8px;
-    background-color: greenyellow;
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .part4::before{
-    content: "4";
-    padding-right: 8px;
-    background-color: greenyellow;
-    font-size: 30px;
-    text-align: center;
-  }
 
   footer {
     background-color: greenyellow;
