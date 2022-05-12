@@ -3,18 +3,18 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: space-between;
+  align-self: baseline;
 }
 
 .ingredients {
   display: flex;
-  flex-flow: column;
-  justify-content: space-between;
-  align-items: space-evenly;
-  width: 60em;
+  flex: auto;
+  flex-flow: column wrap;
+  justify-content: flex-start;
   border-style: groove;
   border-color: greenyellow;
-  padding: 10px;
-  margin-bottom: 10px;
+  padding: 0px 300px 0px 0px;
+  margin: 10px;
 }
 
 h2 {
