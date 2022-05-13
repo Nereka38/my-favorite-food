@@ -6,6 +6,7 @@ ul {
 
 li {
   padding-left: 16px;
+  margin: 1%;
 }
 
 .part1::before {
@@ -14,6 +15,7 @@ li {
   background-color: greenyellow;
   font-size: 30px;
   text-align: center;
+  margin: 1%;
 }
 
 .part2::before {
@@ -22,6 +24,7 @@ li {
   background-color: greenyellow;
   font-size: 30px;
   text-align: center;
+  margin: 1%;
 }
 
 .part3::before {
@@ -30,6 +33,7 @@ li {
   background-color: greenyellow;
   font-size: 30px;
   text-align: center;
+  margin: 1%;
 }
 
 .part4::before {
@@ -38,6 +42,7 @@ li {
   background-color: greenyellow;
   font-size: 30px;
   text-align: center;
+  margin: 1%;
 }
 
 /*# sourceMappingURL=list-style.css.map */

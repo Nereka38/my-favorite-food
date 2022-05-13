@@ -4,45 +4,43 @@
     justify-content: center;
     align-items: space-between;
     align-self: baseline;
+    }
 
+ h2{
+    color: green;
+    font-size: 25px;
+    -webkit-text-stroke: 2px black;
     }
   
-  
-  .ingredients {
-      display: flex;
+ .ingredients, .time, .preparation {
+    display: flex;
+    border-style: groove;
+    background-color: rgba(255, 255, 255, 0.493);
+  }
+
+  .ingredients { 
       flex:auto;
       flex-flow: column wrap;
       justify-content: flex-start;
-      border-style:groove;
       border-color: greenyellow;
-      padding: 0px 300px 0px 0px;
+      padding: 0px 50vw 0px 0px;
       margin: 10px;
-    }
-    
-    h2{
-      color: green;
-      font-size: 25px;
-      -webkit-text-stroke: 2px black;
     }
   
     .time {
-      display: flex;
       justify-content: flex-end;
       flex-flow: column;
       margin-left: 25%;
       margin-bottom: 5%;
       padding: 25px;
-      border-style:groove;
       border-radius: 20px;
       text-align: center;
       border-color: pink;
     }
     
     .preparation {
-      display: flex;
       justify-content: flex-start;
       flex-flow: column;
-      border-style:groove;
       border-color: purple;
       padding: 10px;
     }
