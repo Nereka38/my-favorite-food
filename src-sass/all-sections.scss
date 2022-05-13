@@ -5,12 +5,6 @@
     align-items: space-between;
     align-self: baseline;
     }
-
- h2{
-    color: green;
-    font-size: 25px;
-    -webkit-text-stroke: 2px black;
-    }
   
  .ingredients, .time, .preparation {
     display: flex;
@@ -23,10 +17,13 @@
       flex-flow: column wrap;
       justify-content: flex-start;
       border-color: greenyellow;
-      padding: 50px;
+      padding: 0 50vw 1vw 0;
       margin: 10px;
     }
-  
+
+    span {
+      margin-left: 10px;
+    }
     .time {
       justify-content: flex-end;
       flex-flow: column;
@@ -42,6 +39,5 @@
       justify-content: flex-start;
       flex-flow: column;
       border-color: purple;
-      padding: 10px;
     }
   
